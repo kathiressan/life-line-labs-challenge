@@ -1,0 +1,23 @@
+$color-primary: #4f46e5;
+
+.tableWrapper {
+  overflow-x: auto;
+  padding: 0 5px;
+  .table {
+    margin-inline: auto;
+    text-align: center;
+    border-spacing: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border-collapse: collapse;
+
+    thead {
+      color: white;
+      background-color: $color-primary;
+
+      th {
+        padding: 10px 20px;
+      }
+    }
+  }
+}
